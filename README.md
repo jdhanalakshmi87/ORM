@@ -1,5 +1,5 @@
 # Ex01 Django ORM Web Application
-## Date: 25/4/2026
+## Date: 25/4/2026cd
 
 ## AIM
 To develop a Django Application to store and retrieve data from an Online Food Delivery Database platform like Zomato or Swiggy using Object Relational Mapping(ORM).
@@ -37,7 +37,7 @@ Execute Django admin using localhost and create details for 10 entries
 
 ## PROGRAM
 
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -60,7 +60,7 @@ class Employee (models.Model):
 class EmployeeAdmin(admin.ModelAdmin):
     list_display=('eid','name','salary','age','email')
 
-'''
+```
 
 
 ## OUTPUT
